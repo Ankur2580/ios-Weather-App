@@ -36,6 +36,9 @@ class FiveDayViewController: UIViewController {
         let dateFormater: DateFormatter = DateFormatter()
         let selectedDate: String = dateFormater.string(from: datePickerNib.date)
         print("Selected date---------",selectedDate)
+        
+        print("Helklloe")
+        
     }
     
     var viewModel = WeatherViewModel()
